@@ -1,0 +1,9 @@
+[submodule "quantecon-book/source/lecture-python-intro"]
+	path = quantecon-book/source/lecture-python-intro
+	url = https://github.com/QuantEcon/lecture-python.notebooks.git
+[submodule "quantecon-book/source/lecture-python-programming"]
+	path = quantecon-book/source/lecture-python-programming
+	url = https://github.com/QuantEcon/lecture-python-programming.notebooks.git
+[submodule "quantecon-book/source/lecture-python-advanced"]
+	path = quantecon-book/source/lecture-python-advanced
+	url = https://github.com/QuantEcon/lecture-python-advanced.notebooks.git
