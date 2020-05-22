@@ -1,0 +1,143 @@
+- file: docs/index
+
+- header: Python Programming for Economics and Finance
+- file: lecture-python-programming/index
+  sections:
+    - header: Introduction to Python
+    - file: about_py
+    - file: getting_started
+    - file: python_by_example
+    - file: functions
+    - file: python_essentials
+    - file: oop_intro
+    - file: python_oop
+    - header: The Scientific Libraries
+    - file: need_for_speed
+    - file: numpy
+    - file: matplotlib
+    - file: scipy
+    - file: numba
+    - file: parallelization
+    - file: pandas
+    - header: Advanced Python Programming
+    - file: writing_good_code
+    - file: python_advanced_features
+    - file: debugging
+- header: Quantitative Economics with Python
+- file: lecture-python-intro/index
+  sections:
+    - header: Tools and Techniques
+    - file: geom_series
+    - file: sir_model
+    - file: linear_algebra
+    - file: complex_and_trig
+    - file: lln_clt
+    - file: heavy_tails
+    - header: Introduction to Dynamics
+    - file: scalar_dynam
+    - file: ar1_processes
+    - file: finite_markov
+    - file: inventory_dynamics
+    - file: linear_models
+    - file: samuelson
+    - file: kesten_processes
+    - file: wealth_dynamics
+    - file: kalman
+    - file: short_path
+    - file: cass_koopmans_1
+    - file: cass_koopmans_2
+    - header: Search
+    - file: mccall_model
+    - file: mccall_model_with_separation
+    - file: mccall_fitted_vfi
+    - file: mccall_correlated
+    - file: career
+    - file: jv
+    - header: Consumption, Savings and Growth
+    - file: cake_eating_problem.rst
+    - file: cake_eating_numerical.rst
+    - file: optgrowth
+    - file: optgrowth_fast
+    - file: coleman_policy_iter
+    - file: egm_policy_iter
+    - file: ifp
+    - file: ifp_advanced
+    - header: Information
+    - file: odu
+    - file: likelihood_ratio_process
+    - file: wald_friedman
+    - file: exchangeable
+    - file: likelihood_bayes
+    - file: navy_captain
+    - header: LQ Control
+    - file: lqcontrol
+    - file: perm_income
+    - file: perm_income_cons
+    - file: lq_inventories
+    - header: Multiple Agent Models
+    - file: schelling
+    - file: lake_model
+    - file: rational_expectations
+    - file: re_with_feedback
+    - file: markov_perf
+    - file: uncertainty_traps
+    - file: aiyagari
+    - header: Asset Pricing and Finance
+    - file: markov_asset
+    - file: harrison_kreps
+    - header: Data and Empirics
+    - file: pandas_panel
+    - file: ols
+    - file: mle
+- header: Advanced Quantitative Economics with Python
+- file: lecture-python-advanced/index
+  sections:
+    - header: Tools and Techniques
+    - file: orth_proj
+    - file: stationary_densities
+    - file: muth_kalman
+    - file: discrete_dp
+    - header: LQ Control
+    - file: cons_news
+    - file: smoothing
+    - file: smoothing_tax
+    - file: robustness
+    - file: markov_jump_lq
+    - file: tax_smoothing_1
+    - file: tax_smoothing_2
+    - file: tax_smoothing_3
+    - file: lqramsey
+    - header: Multiple Agent Models
+    - file: rob_markov_perf
+    - file: arellano
+    - file: matsuyama
+    - file: coase
+    - header: Dynamic Linear Economies
+    - file: hs_recursive_models
+    - file: growth_in_dles
+    - file: lucas_asset_pricing_dles
+    - file: irfs_in_hall_model
+    - file: permanent_income_dles
+    - file: rosen_schooling_model
+    - file: cattle_cycles
+    - file: hs_invertibility_example
+    - header: Classic Linear Models
+    - file: von_neumann_model
+    - header: Time Series Models
+    - file: arma
+    - file: estspec
+    - file: additive_functionals
+    - file: lu_tricks
+    - file: classical_filtering
+    - header: Asset Pricing and Finance
+    - file: lucas_model
+    - file: black_litterman
+    - header: Dynamic Programming Squared
+    - file: dyn_stack
+    - file: calvo
+    - file: opt_tax_recur
+    - file: amss
+    - file: amss2
+    - file: amss3
+    - file: chang_ramsey
+    - file: chang_credible

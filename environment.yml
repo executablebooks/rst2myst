@@ -1,0 +1,22 @@
+name: quantecon-book
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7.*
+  - jupyter
+  - sphinx=2.4.4
+  - pydata-sphinx-theme
+  - ghp-import
+  - jupytext
+  - matplotlib
+  - numpy
+  - scipy
+  - sympy
+  - pandas
+  - networkx
+  - numba
+  - pip
+  - pip:
+    - git+https://github.com/ExecutableBookProject/jupyter-book
+
