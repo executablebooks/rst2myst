@@ -1,6 +1,11 @@
 """
 Pandoc filters used in converting RST to MyST format
 
+Items that need to be converted to Myst(Markdown):
+    1. Directives
+    2. Inline Directives
+    3. Sphinx Directives (Extended RST)
+
 A list of resources by topic
 
 RST:
