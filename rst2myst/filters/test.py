@@ -21,22 +21,6 @@ if __name__ == '__main__':
     """
     out = apply_filter(s2,filter_func=code_block, out_format="markdown", in_format="rst")
 
-    #-RemoveContent-#
-    s3 = """
-    Cass-Koopmans Planning Problem
-    ==============================
-
-    ::: {.contents}
-
-    depth
-
-    :   2
-    :::
-
-    Overview
-    """
-    out = apply_filter(s3, filter_func=misc out_format="markdown", in_format="rst")
-
     #-TargetHeaders-#
     fp = open('./lecture.rst')
     out = apply_filter(fp.read(), filter_func=target_header,
