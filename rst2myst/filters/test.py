@@ -1,5 +1,7 @@
 from utils import apply_filter
 from code_blocks import main as code_block
+from target_header import main as target_header
+from misc import main as misc
 
 if __name__ == '__main__':
     #-Test-#
@@ -18,3 +20,24 @@ if __name__ == '__main__':
        import pandas as pd
     """
     out = apply_filter(s2,filter_func=code_block, out_format="markdown", in_format="rst")
+
+    #-RemoveContent-#
+    s3 = """
+    Cass-Koopmans Planning Problem
+    ==============================
+
+    ::: {.contents}
+
+    depth
+
+    :   2
+    :::
+
+    Overview
+    """
+    out = apply_filter(s3, filter_func=misc out_format="markdown", in_format="rst")
+
+    #-TargetHeaders-#
+    fp = open('./lecture.rst')
+    out = apply_filter(fp.read(), filter_func=target_header,
+        out_format="markdown-raw_attribute", in_format="rst-auto_identifiers")
